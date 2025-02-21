@@ -23,6 +23,8 @@
         y else y operadores lógicos donde corresponda.
       </p>
       <br /><br />
+
+      <!-- EJERCICIO NRO 1 -->
       <ol>
         <li>
           Se debe construir una página con una única imagen, al hacerle click a
@@ -34,68 +36,111 @@
         <p>B. Si tiene borde, quiotarle el borde con el click.</p>
       </ol>
     </div>
-<br>
-<br>
-<details>
-    <summary>Solución 1er ejercicio</summary>
-    <div class="gotico" >
-        <img id="imagen" onclick="borde()" src="./assets/img/gotico.jpg" alt="">
-    </div>
+    <br />
+    <br />
+    <details>
+      <summary>Solución 1er ejercicio</summary>
+      <div class="gotico">
+        <img
+          id="imagen"
+          onclick="borde()"
+          src="./assets/img/gotico.jpg"
+          alt="" />
+      </div>
+    </details>
 
-</details>
-
-<section>
-
-    <div>
-        
+    <!-- EJERCICIO NRO 2 -->
+    <section>
+      <div>
         <br /><br />
         <ol>
           <li>
-            Se debe construir una página web que permita pedir hasta 10 stickers de los 3 tipos
-            disponibles. Para eso deberá existir un input debajo de cada imagen donde el
-            usuario podrá ingresar un número. En caso de que la suma de todos los stickers
-            seleccionados sea menor o igual 10 se indicará en un párrafo nuevo la cantidad de
-            stickers llevados. Ejemplo "llevas 5 stickers" en cualquier otro caso se mostrará un
+            Se debe construir una página web que permita pedir hasta 10 stickers
+            de los 3 tipos disponibles. Para eso deberá existir un input debajo
+            de cada imagen donde el usuario podrá ingresar un número. En caso de
+            que la suma de todos los stickers seleccionados sea menor o igual 10
+            se indicará en un párrafo nuevo la cantidad de stickers llevados.
+            Ejemplo "llevas 5 stickers" en cualquier otro caso se mostrará un
             texto que dice "Llevas demasiados stickers"
           </li>
-          <br>
-  
+          <br />
+
           <p>A. El párrafo muestra la cantidad de stickers seleccionados</p>
-          <p>B. El párrafo muestra que lleva demasiados stickers en caso de que la cantidad
-            sea mayor que 10..</p>
+          <p>
+            B. El párrafo muestra que lleva demasiados stickers en caso de que
+            la cantidad sea mayor que 10..
+          </p>
         </ol>
       </div>
-  <br>
-  <br>
+      <br />
+      <br />
 
-    <details>
-    <summary>Solucion del 2do ejercicio</summary>
-            <div id="helmets">
-                <img  src="./assets/img/casco1.jpg" alt="Casco1">
-                <input id="helmet1" type="text">
-                <img  src="./assets/img/casco2.jpg" alt="Casco2">
-                <input id="helmet2" type="text">
-                <img  src="./assets/img/casco3.webp" alt="Casco3">
-                <input id="helmet3" type="text">
-                <img  src="./assets/img/casco4.jpg" alt="Casco4">
-                <input id="helmet4" type="text">
-                <img  src="./assets/img/casco5.jpg" alt="Casco5">
-                <input id="helmet5" type="text">
-                <img  src="./assets/img/casco6.jpg" alt="casco6">
-                <input id="helmet6" type="text">
-            </div>
-            <br>
-            <br>
-
+      <details>
+        <summary>Solucion del 2do ejercicio</summary>
+        <div id="helmets">
+          <img src="./assets/img/casco1.jpg" alt="Casco1" />
+          <input id="helmet1" type="text" />
+          <img src="./assets/img/casco2.jpg" alt="Casco2" />
+          <input id="helmet2" type="text" />
+          <img src="./assets/img/casco3.webp" alt="Casco3" />
+          <input id="helmet3" type="text" />
+          <img src="./assets/img/casco4.jpg" alt="Casco4" />
+          <input id="helmet4" type="text" />
+          <img src="./assets/img/casco5.jpg" alt="Casco5" />
+          <input id="helmet5" type="text" />
+          <img src="./assets/img/casco6.jpg" alt="casco6" />
+          <input id="helmet6" type="text" />
+        </div>
+        <br />
+        <br />
 
         <div class="total">
-            <button onclick="calculo()" >Consultar n° de unidades</button>
-            <br>
-            <p id="mensajeUsuario"></p>
+          <button onclick="calculo()">Consultar n° de unidades</button>
+          <br />
+          <p id="mensajeUsuario"></p>
         </div>
-        
-    </details>
-</section>
+      </details>
+    </section>
+
+    <!-- EJERCICIO NRO 3 -->
+
+
+    <section>
+        <div>
+          <br /><br />
+          <ol>
+            <li>
+                Se debe construir una página con 3 select y opciones con dígitos del 1 al 9, al hacer
+                click a la opción ingresar se debe verificar que el password sea 911 y en ese caso
+                mostrar debajo del botón ingresar, un párrafo con el contenido "password 1
+                correcto", en caso de que el password sea 714 se debe mostrar en el párrafo
+                "password 2 es correcto", si ingresa otro valor se debe mostrar "password
+                incorrecto".
+            </li>
+            <br />
+  
+            <p>A. Se muestra correctamente el párrafo "password 1 correcto" al ingresar el
+                password 911 utilizando los select y luego presionando botón con el texto
+                ingresar.</p>
+            <p>
+              B. Adicionalmente se muestra correctamente el párrafo "password 2 correcto" al
+              ingresar el password 714 utilizando los select y luego presionando botón con el
+              texto ingresar
+            </p>
+            <p>
+                C.Se muestra password incorrecto al seleccionar cualquier otro password
+              </p>
+          </ol>
+        </div>
+        <br />
+        <br />
+  
+        <details>
+          <summary>Solucion del 3er ejercicio</summary>
+
+
+
+
 
     <script src="./assets/js/index.js"></script>
   </body>

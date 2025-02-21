@@ -1,55 +1,47 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 
 /* EJERCICIO N° 1 */
 
-h1{
-    display: flex;
-    justify-content: center;
-    
+h1 {
+  display: flex;
+  justify-content: center;
 }
 
 h2 {
-
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
-.descripcion{
-
-    margin-left: 30px;
+.descripcion {
+  margin-left: 30px;
 }
 
-.gotico{
-
-    display: flex;
-    justify-content: center;
+.gotico {
+  display: flex;
+  justify-content: center;
 }
 #imagen {
-    display: flex;
-    justify-content: center;
-    width: 30%;
-    border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  border-radius: 9px;
 }
 
-/* EJERCICIO N° 2 */ 
+/* EJERCICIO N° 2 */
 
-details{
-    margin: 10px;
+details {
+  margin: 10px;
 }
 
-#helmets img{
-
-    width: 20%;
-    margin: 10px;
-    border:3px solid black;
-    border-radius: 9px;
-    
+#helmets img {
+  width: 20%;
+  margin: 10px;
+  border: 3px solid black;
+  border-radius: 9px;
 }
 
-.total{
-
-    display: flex;
-    justify-content:center
-    
+.total {
+  display: flex;
+  justify-content: center;
 }
