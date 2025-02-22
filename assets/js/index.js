@@ -28,3 +28,22 @@ function calculo() {
     usuarioMensaje.innerText = "Llevas demasiados cascos";
   }
 }
+
+// EJERCICIO Nº 3
+
+function check() {
+  let digit1 = document.getElementById("digit1").value;
+  let digit2 = document.getElementById("digit2").value;
+  let digit3 = document.getElementById("digit3").value;
+
+  let password = digit1 + digit2 + digit3;
+  let aprobacion1 = document.querySelector(".aprobacion");
+
+  if (password === "911") {
+    aprobacion1.innerText = "Password 1 correcto";
+  } else if (password === "714") {
+    aprobacion1.innerText = "Password 2 correcto";
+  } else {
+    aprobacion1.innerText = "Password incorrecto";
+  }
+}
