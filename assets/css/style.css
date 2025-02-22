@@ -48,7 +48,7 @@ details {
 
 /* EJERCICIO Nº 3 */
 
-.three-number {
+.three-number{
   display: flex;
   flex-direction: column;
   justify-content: center;
