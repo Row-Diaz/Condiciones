@@ -104,97 +104,95 @@
 
     <!-- EJERCICIO NRO 3 -->
 
+    <section class="three-number">
+      <div>
+        <br /><br />
+        <ol>
+          <li>
+            Se debe construir una página con 3 select y opciones con dígitos del
+            1 al 9, al hacer click a la opción ingresar se debe verificar que el
+            password sea 911 y en ese caso mostrar debajo del botón ingresar, un
+            párrafo con el contenido "password 1 correcto", en caso de que el
+            password sea 714 se debe mostrar en el párrafo "password 2 es
+            correcto", si ingresa otro valor se debe mostrar "password
+            incorrecto".
+          </li>
+          <br />
 
-    <section>
-        <div>
-          <br /><br />
-          <ol>
-            <li>
-                Se debe construir una página con 3 select y opciones con dígitos del 1 al 9, al hacer
-                click a la opción ingresar se debe verificar que el password sea 911 y en ese caso
-                mostrar debajo del botón ingresar, un párrafo con el contenido "password 1
-                correcto", en caso de que el password sea 714 se debe mostrar en el párrafo
-                "password 2 es correcto", si ingresa otro valor se debe mostrar "password
-                incorrecto".
-            </li>
-            <br />
-  
-            <p>A. Se muestra correctamente el párrafo "password 1 correcto" al ingresar el
-                password 911 utilizando los select y luego presionando botón con el texto
-                ingresar.</p>
-            <p>
-              B. Adicionalmente se muestra correctamente el párrafo "password 2 correcto" al
-              ingresar el password 714 utilizando los select y luego presionando botón con el
-              texto ingresar
-            </p>
-            <p>
-                C.Se muestra password incorrecto al seleccionar cualquier otro password
-              </p>
-          </ol>
+          <p>
+            A. Se muestra correctamente el párrafo "password 1 correcto" al
+            ingresar el password 911 utilizando los select y luego presionando
+            botón con el texto ingresar.
+          </p>
+          <p>
+            B. Adicionalmente se muestra correctamente el párrafo "password 2
+            correcto" al ingresar el password 714 utilizando los select y luego
+            presionando botón con el texto ingresar
+          </p>
+          <p>
+            C.Se muestra password incorrecto al seleccionar cualquier otro
+            password
+          </p>
+        </ol>
+      </div>
+      <br />
+      <br />
+
+      <details>
+          <summary>Solucion del 3er ejercicio</summary>
+      <div class="combinacion">
+        <h2>Ingresa el password</h2>
+        <br />
+        <div class="selectores">
+          <select id="digit1">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+
+          <select id="digit2">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+
+          <select id="digit3">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
         </div>
         <br />
         <br />
-        
 
-        <!-- <details>
-          <summary>Solucion del 3er ejercicio</summary> -->
-
-          <div>
-            <label for="digit1">Digito 1</label>
-            <select  id="digit1">
-                <option value="0">0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                
-            </select>
-         
-          
-            <label for="digit2">Digito 2</label>
-            <select  id="digit2">
-                <option value="0">0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                
-            </select>
-        
-          
-            <label for="digit3">Digito 3</label>
-            <select  id="digit3">
-                <option value="0">0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                
-            </select>
-          </div>
-
+        <div class="boton-mensaje">
           <button class="confirmar" onclick="check()">Confirmar</button>
 
           <p class="aprobacion"></p>
-
-
-
-
+        </div>
+      </div>
+    </section>
 
     <script src="./assets/js/index.js"></script>
   </body>

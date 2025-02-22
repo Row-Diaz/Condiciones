@@ -48,4 +48,21 @@ details {
 
 /* EJERCICIO Nº 3 */
 
+.three-number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.combinacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(175, 244, 247);
+  border: 8px solid;
+  width: 30vw;
+  height: 20vh;
+}
